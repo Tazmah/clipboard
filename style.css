@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1,h2{
+    font-size: 30px;
+    color: #515a61;
+}
+p{
+    font-size: 20px;
+    color: #d2d7da;
+}
+div.head{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+div.logo{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+}
+div.logo img{
+    margin-top: 100px;
+    font-size: 150px;
+    color: #29bda7;
+}
+div.content-1,div.content-2{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+div.content-2{
+    margin-top: 150px;
+}
+div.content-1 h1, div.content-2 h1{
+    color: #515a61;
+    font-size: 40px;
+}
+div.content-1 p, div.content-2 p{
+    color: #d2d7da;
+    margin-top: 30px;
+    font-size: 20px;
+}
+div.button{
+    margin-top: 30px;
+    
+}
+button{
+    width: 40%;
+    border-radius: 40px;
+    font-size: 2vmax;
+    padding: 10px;
+    cursor: pointer;
+}
+button.ios{
+    background: #26bba5;
+    color: white;
+}
+button.mac{
+    background: #6174ff;
+    color: white;
+}
+div.content-3{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+}
+@media screen and (max-width:700px) {
+    div.content-3{
+        margin-top: 100px;
+        display: block;
+        width: 100%;
+    }
+    div.left-img{
+        width: 100%;
+        margin: auto;
+    }
+    div.right-text {
+        width: 100%;
+        text-align: center;
+        align-self: center;
+        
+    }
+    div.content-6{
+        flex-direction: column;
+        width: 100%;
+        margin-top: -150px;
+        padding: 0;
+        padding: 90px;
+    }
+    div.content-6 > div{
+        width: 100%;
+        margin: 20px;
+        text-align: center;
+    }
+    
+    div.ibm img {
+        width: 5000px;
+    }
+    
+    div.straight{
+        margin-bottom: -200px;
+        flex-direction: column !important;
+        width: 100%;
+        padding: 90px;
+    }
+
+
+    div.straight > div {
+        width: 100%;
+        margin: 20px;
+    }
+    
+}
+
+div.left-img{
+    width: 50%;
+}
+div.left-img img{
+    width: 100%;
+}
+div.right-text {
+    margin: auto;
+    width: 40%;
+    margin-top: -10px;
+}
+div.right-text > h2{
+    font-size: 30px;
+    color: #515a61;
+    margin-bottom: 20px;
+}
+div.right-text > p{
+    color: #d2d7da;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+div.content-4{
+    width: 100%;
+    margin-top: 50px;
+}
+div.text-4{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+div.content-4-img{
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+div.content-4-img img{
+    width: 100%;
+}
+div.text-5{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+div.straight{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    /* margin-top: 50px; */
+    justify-content: space-between;
+    width: 100%;
+}
+div.first,div.second,div.third{
+    width: 30%;
+    text-align: center;
+    
+}
+div.content-6{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 120px;
+}
+div.content-7{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+div.text-7{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+div.button-2{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+div.footer{
+    color: #f5f6f8;
+    width: 100%;
+    margin-top: 40px;
+}
+div.info{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+}
+div.info img{
+    width: 50px;
+}
+div.ibm{
+    width: 20%;
+    justify-content: space-between;
+}
+div.ibm img{
+    width: 60%;
+}
+footer{
+    margin-top: 20px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: #d2d7da;
+}
+a:hover{
+    color: #29bda7;
+}
